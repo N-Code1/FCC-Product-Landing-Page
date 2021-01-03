@@ -1,0 +1,36 @@
+header {
+    display: flex;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height:;
+    justify-content: space-between;
+    background-color:aliceblue;
+}
+
+body {
+    margin: auto;
+    padding: 6rem 1.2rem 1.2rem 1.2rem;
+    text-align: center;
+}
+
+#form-header {
+    margin: auto;
+    padding: 3rem;
+    width: 600px;
+}
+
+.pricing-options {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#option-one #option-two #option-three {
+    margin: auto;
+    
+}
+
+#pricing-header {
+    text-align: center;
+}
