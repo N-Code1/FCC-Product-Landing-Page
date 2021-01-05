@@ -1,3 +1,12 @@
+.background-img {
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    opacity: 33%;
+}
+
 header {
     display: flex;
     position: fixed;
@@ -14,10 +23,29 @@ body {
     text-align: center;
 }
 
+@media (max-width: 500px) {
+    body {
+        flex-wrap: wrap;
+    }
+}
+
 #form-header {
     margin: auto;
     padding: 3rem;
-    width: 600px;
+    width: 366px;
+}
+
+#form {
+    margin: auto;
+    padding: 3rem;
+    justify-content: center;
+}
+
+#capabilities {
+    margin: auto;
+    text-align: left;
+    width: 566px;
+    justify-content: center;
 }
 
 .pricing-options {
@@ -34,3 +62,4 @@ body {
 #pricing-header {
     text-align: center;
 }
+
